@@ -20,7 +20,7 @@ public  final  class TestProperties {
      try {  
       prop.load(in);  
       param1 = prop.getProperty( "exportOutFile" ).trim();  
-      param2 = prop.getProperty( "exportOutFile" ).trim();  
+      //param2 = prop.getProperty( "exportOutFile" ).trim();  
     } catch (IOException e) {  
       e.printStackTrace();  
     }  
@@ -42,6 +42,6 @@ public  final  class TestProperties {
   
    public  static  void main(String args[]){  
     System.out.println(getParam1());  
-    System.out.println(getParam2());  
+    //System.out.println(getParam2());  
   }  
 }  
